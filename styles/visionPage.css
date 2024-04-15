@@ -1,0 +1,60 @@
+#visionMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#visionContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#visionContent h1 {
+  font-size: 32px;
+  padding: 30px 0 40px 0;
+}
+#visionContent p {
+  width: 50%;
+  text-align: center;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 0 0 25px 0;
+}
+#visionContent .flyers {
+  width: 80%;
+  display: flex;
+  justify-content: space-evenly;
+}
+#visionContent img {
+  width: 50%;
+  margin: 25px 0;
+}
+#visionContent a {
+  text-align: center;
+  display: block;
+  padding: 15px;
+  color: #ffffff;
+  box-shadow: 3px 3px #a0a0a0, -3px -3px #a0a0a0, 5px 5px 0 #c5c5c5, -5px -5px #c5c5c5;
+  background-color: #00afab;
+  text-decoration: none;
+  transition: 0.6s;
+}
+#visionContent a:hover {
+  box-shadow: 3px 3px #008785, -3px -3px #008785, 5px 5px 0 #00afab, -5px -5px #00afab;
+}
+#visionContent video {
+  width: min(80%, 1000px);
+  margin: 0 0 10px 0;
+  box-shadow: 3px 3px #a0a0a0, -3px -3px #a0a0a0, 5px 5px 0 #c5c5c5, -5px -5px #c5c5c5;
+}
+
+@media screen and (max-width: 800px) {
+  .flyers {
+    flex-direction: column;
+    align-items: center;
+  }
+  #visionContent img {
+    width: 400px;
+  }
+}/*# sourceMappingURL=visionPage.css.map */

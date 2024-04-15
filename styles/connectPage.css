@@ -1,0 +1,44 @@
+#connectMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#connectContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#connectContent h1 {
+  font-size: 32px;
+  padding: 20px 0 0 0;
+}
+#connectContent p {
+  width: min(70%, 600px);
+  text-align: center;
+  font-size: 20px;
+  line-height: 26px;
+  padding: 0 0 25px 0;
+}
+#connectContent img {
+  width: 30%;
+  width: min(50%, 400px);
+  margin: 25px 0;
+  box-shadow: 3px 3px #a0a0a0, -3px -3px #a0a0a0, 5px 5px 0 #c5c5c5, -5px -5px #c5c5c5;
+}
+#connectContent a {
+  color: #ffffff;
+}
+#connectContent a:hover {
+  text-decoration: none;
+}
+
+@media screen and (max-width: 500px) {
+  #connectContent img {
+    width: 90%;
+  }
+  #connectContent p {
+    width: 100%;
+  }
+}/*# sourceMappingURL=connectPage.css.map */
